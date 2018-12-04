@@ -1,0 +1,29 @@
+Automated Tests :
+
+
+1) Create a new folder.
+2) Put junit-4.12.jar and hamcrest-core-1.3.jar in this folder(Located in Test Files folder)
+3) Copy the test code(Loscated in Test Files folder) with the other classes to be tested in this same folder.
+
+TO COMPILE:
+
+javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar *.java
+
+or 
+
+(For Windows)
+javac -cp .;junit-4.12.jar;hamcrest-core-1.3.jar *.java
+
+
+TO RUN:
+Note: replace <test class> with the class to be tested
+
+java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore <test class>
+
+or 
+
+(For Windows)
+java -cp .;junit-4.12.jar;hamcrest-core-1.3.jar org.junit.runner.JUnitCore <test class>
+
+
+
